@@ -1,3 +1,3 @@
-# Abstract Classes and Interface
+# Polymorphism
 
-Example for Data Abstraction using Abstract Classes and Interfaces
+Example for Method Overloading and Method Overriding
