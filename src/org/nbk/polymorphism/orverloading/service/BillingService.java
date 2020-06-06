@@ -7,19 +7,19 @@ import org.nbk.polymorphism.overloading.model.Item;
 
 public class BillingService {
 
-    public int calculateBill(Customer customer, int gst) {
+    public double calculateBill(Customer customer, int gst) {
 	System.out.println("Int calculator");
-	return (int) calculate(customer, gst);
+	return calculate(customer, gst);
     }
 
-    public float calculateBill(Customer customer, float gst) {
+    public double calculateBill(Customer customer, float gst) {
 	System.out.println("float calculator");
-	return (float) calculate(customer, gst);
+	return calculate(customer, gst);
     }
 
-    public long calculateBill(Customer customer, long gst) {
+    public double calculateBill(Customer customer, long gst) {
 	System.out.println("long calculator");
-	return (long) calculate(customer, gst);
+	return calculate(customer, gst);
     }
 
     public double calculateBill(Customer customer, double gst) {
