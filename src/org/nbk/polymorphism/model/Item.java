@@ -1,5 +1,4 @@
-package org.nbk.polymorphism.overloading.model;
-
+package org.nbk.polymorphism.model;
 
 public class Item {
 

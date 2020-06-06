@@ -1,4 +1,4 @@
-package org.nbk.polymorphism.overloading.model;
+package org.nbk.polymorphism.model;
 
 import java.util.List;
 

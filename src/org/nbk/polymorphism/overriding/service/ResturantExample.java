@@ -1,11 +1,11 @@
-package org.nbk.polymorphism.overriding.demo;
+package org.nbk.polymorphism.overriding.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import org.nbk.polymorphism.model.Customer;
+import org.nbk.polymorphism.model.Item;
 import org.nbk.polymorphism.orverloading.service.BillingService;
-import org.nbk.polymorphism.overloading.model.Customer;
-import org.nbk.polymorphism.overloading.model.Item;
 
 public class ResturantExample {
 
@@ -36,6 +36,9 @@ public class ResturantExample {
 	customer.setBillAmount(bill);
 
 	System.out.println(customer);
+	
+	ReportingService service = new XMLReport();
+	service.generateReport();
     }
 
 }
