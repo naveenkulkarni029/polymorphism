@@ -36,9 +36,10 @@ public class ResturantExample {
 	customer.setBillAmount(bill);
 
 	System.out.println(customer);
-	
-	ReportingService service = new XMLReport();
+
+	ReportingService service = new PDFReport();
 	service.generateReport();
+	service.showReport();
     }
 
 }
